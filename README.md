@@ -1,2 +1,6 @@
-# eliana-portfolio
-A portfolio of my projects using React only. 
+# Portfolio of Eliana Liantonio
+
+## Built with 
+React
+
+## Installation
