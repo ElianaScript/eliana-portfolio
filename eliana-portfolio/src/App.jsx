@@ -6,6 +6,7 @@ import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import NavTabs from'./components/navtabs';
+import './index.css';
 
 const App = () => {
     return (
