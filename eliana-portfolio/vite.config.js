@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/eliana-portfolio/eliana-portfolio',
+  base: '/',
   build: {
     rollupOptions: {
       input: './index.html',
