@@ -4,9 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/',
   build: {
-    rollupOptions: {
-      input: './index.html',
-    },
+    outDir: '/opt/build/eliana-portfolio/dist'
   },
   plugins: [react()],
 })
