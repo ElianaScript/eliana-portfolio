@@ -13,7 +13,7 @@ const About = () => {
                 style={{ fontSize: '3rem', marginBottom: '2rem', textAlign: 'center', fontWeight: 'bold' }}
                 data-aos="fade-up"
             >
-                Hello world!
+                Hello World!
             </h1>
 
             <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '2rem' }} data-aos="fade-right">
