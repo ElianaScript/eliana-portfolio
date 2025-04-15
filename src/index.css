@@ -1,109 +1,110 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", Georgia, 'Times New Roman', Times, serif;
-  scroll-behavior: smooth;
-
-}
-
-.hero-banner {
-  padding: 40 px 20px;
-  background-color: linear-gradient(135deg, #432C60, #2B1A40);
-  color: #C9B5C3;
-  text-align: center;
-  border-bottom: 4px solid #C9B5C3
-}
-
-.nav-tabs {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  font-size: 1.5rem;
-  padding: 10px 0;
-}
-
-nav-tabs a {
-  color: #C9B5C3;
-  transition: color 0.3s ease-in-out;
-}
-
-.nav-tabs a:hover {
-  color: #ffffff;
-  transform: scale(1.05);
-}
-
-.contact-page {
-  display: flex;
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px 20px;
-}
-
-.portfolio-image {
-  width: 100px;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.portfolio-image:hover {
-  transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.3s ease-in-out;
-}
-
-a:hover { 
-  color:#ffffff;
-}
-
-.footer-spell {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  padding: 20px 0;
-  background-color: #432C60;
-  color: #C9B5C3;
-}
-
-html {
-  background-color:#C9B5C3;
-  color: #432C60;
-}
-
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+    background-color: #DCD6D0;
+  
   }
-
+  
   .hero-banner {
-    background: linear-gradient(135deg, #747bff, #A58BFA);
+    padding: 10px;
+    font-size: 25px;
+    background-color:#7F8FAE;
+    color: #DCD6D0;
+    text-align: center;
+  }
+  
+  .nav-tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 10px 0;
+  }
+  
+  nav-tabs a {
+    color: #7F8FAE;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-tabs a:hover {
     color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-    border: 1px solid #432C60;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
-  }
-
-  button:hover {
-    background-color: #747bff;
-    color: white;
     transform: scale(1.05);
   }
-}
+  
+  .contact-page {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .portfolio-image {
+    width: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .portfolio-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover { 
+    color:#FFFFFF;
+  }
+  
+  .footer-spell {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px 0;
+    background-color: #DCD6D0;
+    color: #7F8FAE;
+  }
+  
+  html {
+    background-color: #DCD6D0;
+    color: #7F8FAE;
+  }
+  
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+  
+    .hero-banner {
+      background: linear-gradient(135deg, #747bff, #A58BFA);
+      color: #ffffff;
+    }
+  
+    a:hover {
+      color: #747bff;
+    }
+  
+    button {
+      background-color: #f9f9f9;
+      border: 1px solid #432C60;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    }
+  
+    button:hover {
+      background-color: #747bff;
+      color: white;
+      transform: scale(1.05);
+    }
+  }

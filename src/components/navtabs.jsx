@@ -5,16 +5,10 @@ function NavTabs() {
     return (
      <ul className="nav-tabs">
        <li className="nav-item">
-         <Link to='/'>Home</Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/about">About</Link>
+         <Link to='/'>About Me</Link>
         </li>
         <li className="nav-item">
             <Link to="/portfolio">Portfolio</Link>
-        </li>
-        <li className="nav-item">
-            <Link to="/resume">Resume</Link>
         </li>
         <li className='nav-item'>
             <Link to="/contact">Contact Me</Link>
