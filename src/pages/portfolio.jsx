@@ -4,12 +4,12 @@ import '../index.css'
 
 const projects = [
     {
-        name: 'Movie Genre Generator',
-        link: "https://github.com/ElianaScript/firstproject1",
+        name: 'Genrefy',
+        link: "https://elianascript.github.io/firstproject1/",
     },
     {
-        name: 'Mock content management system',
-        link: "https://github.com/ElianaScript/CMS-cli",
+        name: 'My Favorite Anime List',
+        link: "https://elianascript.github.io/VueTest/",
     },
     {
         name: 'My portfolio',
@@ -19,6 +19,10 @@ const projects = [
         name: 'novel idea',
         link: "https://book-rec-app.onrender.com/",
     },
+    {
+        name: 'README.md generator',
+        link: "https://github.com/ElianaScript/readme-generator-nodejs"
+    }
 ]
 
 
