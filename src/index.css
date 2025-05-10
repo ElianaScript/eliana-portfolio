@@ -83,34 +83,3 @@
     color: #7F8FAE;
   }
   
-  
-  @media (prefers-color-scheme: light) {
-    :root {
-      color: #213547;
-      background-color: #ffffff;
-    }
-  
-    .hero-banner {
-      background: linear-gradient(135deg, #747bff, #A58BFA);
-      color: #ffffff;
-    }
-  
-    a:hover {
-      color: #747bff;
-    }
-  
-    button {
-      background-color: #f9f9f9;
-      border: 1px solid #432C60;
-      padding: 10px 15px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
-    }
-  
-    button:hover {
-      background-color: #747bff;
-      color: white;
-      transform: scale(1.05);
-    }
-  }
