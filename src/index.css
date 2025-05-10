@@ -4,13 +4,19 @@
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
     scroll-behavior: smooth;
-    background-color: #DCD6D0;
-  
   }
   
   .hero-banner {
     padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
+    background-color:#7F8FAE;
+    color: #DCD6D0;
+    text-align: center;
+  }
+
+  .hero-banner-subtitle {
+    padding: 10px;
+    font-size: 20px;
     background-color:#7F8FAE;
     color: #DCD6D0;
     text-align: center;
