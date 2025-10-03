@@ -21,6 +21,11 @@ const essays = [
         name: "Religion, Nature and Humanity: Wordsworth has done it again",
         description: `"Wordsworth wrote in a way that was meant to be definite and questionable simultaneously."`,
         link: "essays/romantic-essay.pdf",
+    },
+    {
+        name: `The Burden of A Mother: Lili's Silent Narrative in "A Wall Of Fire Rising"`,
+        description: `"Instead of submitting to a pathetic attempt at masculinity, she chooses to step back and allow the situation to diffuse. Like any true rebel, she knows it takes time to break the system."`,
+        link: "essays/lit-analysis.pdf",
     }
 ];
 
